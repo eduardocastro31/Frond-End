@@ -1,0 +1,33 @@
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+  .portada-img {
+    min-height: 100vh;
+    background-color: whitesmoke;
+    color: black;
+    background-image: url(../img/portada.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width:768px){
+
+    .portada-img {
+        background-image: url(../img/portada.webp);
+    }
+
+}
+
+
+@media (min-width:1024px){
+
+    .portada-img{
+       background-image: url(../img/portada.webp);
+    }
+
+
+}
